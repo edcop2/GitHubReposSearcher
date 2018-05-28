@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#elemContainer {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 3px 5px 4px #888888;
+    margin-top: 15px;
+}
+
+.descbtn {
+    width: 80%;
+    background: #3a98a6;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+}
+
+.block-with-text {
+    overflow: hidden;
+    line-height: 1.2em;
+    max-height: 3.6em;
+}
+
+.descbtn:hover {
+    border: none;
+}
+
+.descbtn:active {
+    border: none;
+}
+
+.Name {
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.repoName {
+    background: -webkit-linear-gradient(#0cbcc6, #ffffff);
+    -webkit-background-clip: content-box;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+}
+
+.ownerName {
+    background: #4b5257;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ctrlBtn {
+    background-color: inherit;
+    border: none;
+}
+
+.fa-trash-alt {
+    color: red;
+}
