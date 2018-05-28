@@ -12,7 +12,7 @@ Clone Repo to your computer.
 
 You can clone repo using command
 ```
-npm install https://github.com/edcop2/GitHubRepoSearcher
+npm install https://github.com/edcop2/GitHubReposSearcher
 ```
 
 If you just donload the Repo you need to install dependecies. To do it open the command line and navigate to folder with repo and install all dependecies using command
